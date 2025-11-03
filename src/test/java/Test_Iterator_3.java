@@ -1,4 +1,4 @@
-//import edu.io.TextSource;
+import edu.io.TextSource;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
@@ -6,7 +6,7 @@ import java.util.Iterator;
 import java.util.NoSuchElementException;
 
 public class Test_Iterator_3 {
-/*
+
     @Test
     void can_iterate_by_chars() {
         var txt = "abc 123";
@@ -38,5 +38,5 @@ public class Test_Iterator_3 {
                     it::next);
         }
     }
-    */
+
 }

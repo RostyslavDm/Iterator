@@ -1,4 +1,4 @@
-//import edu.io.TextSource;
+import edu.io.TextSource;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
@@ -6,7 +6,7 @@ import java.util.Iterator;
 import java.util.NoSuchElementException;
 
 public class Test_Iterator_4 {
-    /*
+    
     @Test
     void can_iterate_by_sentences() {
         var txt = "To jest pierwsze zdanie. A to drugie! Gdzie jest trzecie?";
@@ -49,5 +49,5 @@ public class Test_Iterator_4 {
                     it::next);
         }
     }
-    */
+    
 }

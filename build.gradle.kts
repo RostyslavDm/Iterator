@@ -3,7 +3,7 @@ plugins {
 }
 
 group = "edu.io"
-version = "1.0-SNAPSHOT"
+version = ""
 
 repositories {
     mavenCentral()
@@ -17,4 +17,11 @@ dependencies {
 
 tasks.test {
     useJUnitPlatform()
+}
+
+tasks.jar {
+    archiveBaseName.set("itx")
+    manifest {
+        attributes["Main-Class"] = "edu.io.Main"
+    }
 }
